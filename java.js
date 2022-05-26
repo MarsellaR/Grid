@@ -8,3 +8,5 @@ navIcon.addEventListener("click", function () {
 closeIcon.addEventListener("click", function () {
   navSidebar.classList.remove("show-sidebar");
 });
+// set year
+date.innerHTML = new Date().getFullYear();
